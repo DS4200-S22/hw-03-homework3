@@ -3,14 +3,20 @@ h1 {
 }
 
 .flex-container {
-	width: 500px;
-	display: flex;
+	display:  flex;
+	justify-content: center;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
-.flex-container .col {
-	flex: 1;
+.first, .second, .third, .fourth {
+	width:  48%;
+	height: 400px;
+	margin-bottom: 2%;
 	background: mediumpurple;
-	width: 32%;
+}
+
+.item:nth-child(3n) {
+	width: 100%;
 }
 
