@@ -1,0 +1,16 @@
+h1 {
+	text-align: center;
+}
+
+.flex-container {
+	width: 500px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-container .col {
+	flex: 1;
+	background: mediumpurple;
+	width: 32%;
+}
+
