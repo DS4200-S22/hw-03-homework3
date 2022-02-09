@@ -1,5 +1,13 @@
-h1 {
+body {
+	font-family:  Arial;
+}
+
+h1, h3 {
 	text-align: center;
+}
+
+img {
+	max-width: 100%;
 }
 
 .flex-container {
@@ -9,14 +17,25 @@ h1 {
 	flex-wrap: wrap;
 }
 
+.text {
+  padding: 15px 15px 15px 15px;
+  display: flex;
+}
+
 .first, .second, .third, .fourth {
 	width:  48%;
-	height: 400px;
+	height: 100%;
 	margin-bottom: 2%;
 	background: mediumpurple;
+	position:  relative;
+	flex-direction: column;
+	border-style:  solid;
 }
 
 .item:nth-child(3n) {
 	width: 100%;
 }
 
+.resources {
+	text-align: center;
+}
